@@ -31,7 +31,7 @@ SMART-SUPPLY-CHAIN-ANALYTICS/
 ├── README.md                          # Project documentation
 └── requirements.txt                   # Project dependencies
 
-'''
+```
 ---
 
 ## 🛠️ Tech Stack & Tools
