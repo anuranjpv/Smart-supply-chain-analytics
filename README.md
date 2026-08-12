@@ -31,7 +31,10 @@ SMART-SUPPLY-CHAIN-ANALYTICS/
 ├── README.md                          # Project documentation
 └── requirements.txt                   # Project dependencies
 
-🛠️ Tech Stack & Tools
+'''
+---
+
+## 🛠️ Tech Stack & Tools
 Database & Querying: MySQL / SQLAlchemy / PyMySQL
 
 Data Wrangling & Analysis: Python (pandas, numpy)
@@ -40,7 +43,9 @@ Visualization & Dashboarding: Power BI, seaborn, matplotlib
 
 Machine Learning: scikit-learn (Random Forest / Logistic Regression classification for late risk)
 
-🔑 Key Features & Pipeline Workflow
+---
+
+## 🔑 Key Features & Pipeline Workflow
 1️⃣ Database Ingestion & SQL KPI Extraction (01_sql_scripts/)
 Raw transactional datasets loaded into local MySQL database (supply_chain_db).
 
@@ -64,7 +69,9 @@ Fulfillment Analysis: Late Delivery Rate %, On-Time Shipping performance across 
 
 Geographic & Category Insights: Sales and profitability breakdown by Market, Region, and Product Category.
 
-🚀 How to Run locally
+---
+
+## 🚀 How to Run locally
 Prerequisites
 Python 3.10+
 
@@ -93,14 +100,13 @@ Run Notebook:
 
 Open and run 02_supply_chain_cleaning_eda.ipynb to process raw data and generate the output CSV file.
 
-📈 Key Insights & Business Impact
+---
+
+## 📈 Key Insights & Business Impact
 Shipping Mode Bottlenecks: Standard Class shipping shows higher variance in actual shipping days compared to Scheduled shipping days.
 
 Geographic Risk: Specific regional markets exhibit elevated late delivery rates, providing key targets for logistical optimization.
 
 Predictive Accuracy: Machine Learning classification models effectively flag high-risk orders prior to dispatch, enabling proactive customer notification and dispatch prioritization.
 
-👤 Author
-Anuranj P V - Data Analyst / Computer Science Student
-
-GitHub: @anuranjpv
+---
