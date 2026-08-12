@@ -1,0 +1,13 @@
+# Ignore all CSV datasets due to GitHub 100MB limit
+*.csv
+data/*.csv
+
+# Python / Jupyter cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# IDE / OS specific files
+.vscode/
+.DS_Store
+Thumbs.db
