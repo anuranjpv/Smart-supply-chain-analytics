@@ -47,11 +47,13 @@ Machine Learning: scikit-learn (Random Forest / Logistic Regression classificati
 
 ## 🔑 Key Features & Pipeline Workflow
 1️⃣ Database Ingestion & SQL KPI Extraction (01_sql_scripts/)
+
 Raw transactional datasets loaded into local MySQL database (supply_chain_db).
 
 SQL scripts executed using CTEs and window functions to extract aggregate revenue, profit margins, late delivery ratios, and regional performance.
 
 2️⃣ Python EDA, Data Cleaning & Predictive Modeling (02_python_eda/)
+
 Established secure database connection via SQLAlchemy.
 
 Cleaned raw transactional features, handled missing values, and encoded categorical variables.
@@ -61,6 +63,7 @@ Built Machine Learning models to predict Late Delivery Risk (Late_delivery_risk)
 Exported cleaned dataset to data/cleaned_supply_chain_data.csv.
 
 3️⃣ Executive Dashboard (03_power_bi/)
+
 Interactive Power BI dashboard (smart_supply_chain_analytics.pbix) featuring:
 
 Executive Overview: Total Revenue, Total Profit, Profit Margin %, and Order Volume.
@@ -72,7 +75,9 @@ Geographic & Category Insights: Sales and profitability breakdown by Market, Reg
 ---
 
 ## 🚀 How to Run locally
-Prerequisites
+
+Prerequisites:
+
 Python 3.10+
 
 MySQL Server
@@ -80,10 +85,15 @@ MySQL Server
 Power BI Desktop (to view .pbix)
 
 Setup Environment
+
 Clone the repository:
 
-git clone [https://github.com/anuranjpv/smart-supply-chain-analytics.git](https://github.com/anuranjpv/smart-supply-chain-analytics.git)
+git clone
+``` [https://github.com/anuranjpv/smart-supply-chain-analytics.git](https://github.com/anuranjpv/Smart-supply-chain-analytics.git)
+```
+```
 cd smart-supply-chain-analytics
+```
 
 Install Python dependencies:
 
