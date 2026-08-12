@@ -85,7 +85,8 @@ MySQL Server
 
 Power BI Desktop (to view .pbix)
 
-• Setup Environment
+• Setup Environment:
+
 Clone the repository
 ```bash
    git clone [https://github.com/anuranjpv/smart-supply-chain-analytics.git](https://github.com/anuranjpv/smart-supply-chain-analytics.git)
